@@ -1,0 +1,141 @@
+.main
+	width: 100%
+	margin-bottom: 60px
+	.ad
+		display: none
+		width: 100%
+		height: 100%
+		max-width: 600px
+		max-height: 550px
+		padding: 80px 30px 0 30px
+		background: rgba(255,0,0,.8)
+		margin: auto
+		position: absolute
+		position: fixed
+		top: 8%
+		left: 30%
+		z-index: 100
+		transition: all, 2s, ease 1s
+		animation: ad 2s linear
+		overflow: hidden
+		p
+			color: #fff
+			font-size: 1.9em
+			text-align: center
+			.close
+				position: relative
+				bottom: 70px
+				left: 25px
+				color: #fff
+	@keyframes ad
+		0%
+			width: 0%
+			height: 0%
+			display: none
+		100%
+			width: 100%
+			height: 100%
+			display: block
+		100%
+			width: 100%
+			height: 100%
+		0%
+			width: 0%
+			height: 0
+	@keyframes adp
+		0%
+			display: none
+		100%
+			display: block
+	.criadero
+		padding: 30px
+		img
+			margin: auto
+			width: 100%
+			max-width: 270px
+			text-align: center
+			filter: grayscale(100%)
+			transition: all .5s ease
+			&:hover
+				filter: none
+	h1
+		text-align: center
+		color: #fff
+		font-size: 2.5em
+		font-weight: normal
+		padding: 60px 0
+	article
+		.group
+			padding: 5px
+			.card
+				filter: grayscale(100%)
+				transition: all .5s ease
+				&:hover
+					filter: none
+		h2
+			text-align: center
+			color: #fff
+			font-size: 1.5625em
+			font-weight: normal
+			padding: 30px 0
+			margin-top: 60px
+			width: 100%
+			text-align: center
+			font-family: Domie, Arial, Sans-serif
+		p
+			background: rgba(#be0101, .3)
+			padding: 20px
+			margin-bottom: 30px
+			color: #fff
+			font-size: 1.25em
+		ul
+			width: 70%
+			background: rgba(#be0101, .3)
+			padding: 20px
+			margin-bottom: 30px
+			color: #fff
+			font-size: 1.25em
+			list-style: none
+			text-align: left
+			float: left
+			margin-right: 20px
+		ol
+			background: rgba(#be0101, .3)
+			padding: 20px
+			margin-bottom: 30px
+			padding-left: 40px
+			color: #fff
+			font-size: 1.25em
+	.center
+		text-align: center
+		padding: 30px
+		a
+			color: #fff
+			text-decoration: none
+			cursor: default
+			&:hover
+				cursor: default
+.main
+	article
+		.image
+			background: rgba(#be0101, .3)
+			width: 30%
+			float: left
+			padding: 30px
+			img
+				width: 100%
+				float: left
+	.carousel
+		width: 100%
+		height: 100%
+		max-width: 760px
+		max-height: 600px
+		overflow: hidden
+		margin: 60px auto
+	.w-100
+		overflow: hidden
+	// 	width: 100%
+	// 	max-width: 500px
+	// 	height: 100%
+	// 	max-height: 500px
+	// 	padding: 30px
