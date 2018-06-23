@@ -10,7 +10,7 @@
 
 		<div class="group-article ">
 			
-			<p>Esta Pagina No Existe </p>
+			<p>Esta Pagina No Existe</p>
 
 			<p>Te Redireccionaremos en 10 Segundos</p>
 
